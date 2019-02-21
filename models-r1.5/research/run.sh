@@ -19,7 +19,7 @@ eval_dir=$output_dir/eval
 mkdir $eval_dir
 
 # config文件??
-config=ssd_mobilenet_v1_pets.config
+config=ssd_mobilenet_v1_my.config
 pipeline_config_path=$output_dir/$config
 
 echo "###train_dir###" $train_dir "###"
