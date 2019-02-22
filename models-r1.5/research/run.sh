@@ -1,20 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @f-origin Sign out
-1
-0 0 f-origin/week9_homework
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-week9_homework/models-r1.5/research/run.sh
-650912d  11 hours ago
-@f-origin f-origin update
-     
-56 lines (46 sloc)  2.43 KB
 #!/bin/bash
 # 查找脚本所在路径，并进入
 #DIR="$( cd "$( dirname "$0"  )" && pwd  )"
@@ -70,16 +53,3 @@ python3 ./object_detection/export_inference_graph.py --input_type image_tensor -
 echo "############ inference #################"
 # 在test.jpg上验证导出的模型
 python3 ./inference.py --output_dir=$output_dir --dataset_dir=$dataset_dir
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
